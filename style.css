@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    
+}
+.main{
+    width: auto;
+    height: 99vh;
+    background-color: rgb(19, 114, 0);
+    border: 3px solid red;
+    text-align: center;
+}
+.avatar img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid snow;
+    border-radius: 50px;
+}
+b{
+    color: blue;
+    font-weight: 900;
+}
+h2{
+    color: black;
+}
+.link{
+    display: block;
+    border: 1px solid;
+    height: 40px;
+    width: 400px;
+    margin-top: 10px;
+    color: beige;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.link:hover{
+    transition: 400ms;
+    background-color: darkred;
+    transform: translateY(10px);
+}
